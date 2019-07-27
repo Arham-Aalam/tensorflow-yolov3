@@ -52,7 +52,7 @@ __C.TRAIN.INITIAL_WEIGHT        = "./checkpoint/yolov3_coco_demo.ckpt"
 # TEST options
 __C.TEST                        = edict()
 
-__C.TEST.ANNOT_PATH             = "./data/dataset/avt_test.txt"
+__C.TEST.ANNOT_PATH             = "./data/dataset/atv_test.txt"
 __C.TEST.BATCH_SIZE             = 2
 __C.TEST.INPUT_SIZE             = 800
 __C.TEST.DATA_AUG               = False
